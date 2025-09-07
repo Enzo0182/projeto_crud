@@ -97,6 +97,6 @@ def atualizar_usuario_por_id(id_buscador: int):
 
 
 #criar_usuario('Pedro')
-pegar_usuarios()
-pegar_usuario_por_id(20)
-pegar_usuario_por_nome('Pedro')
+#pegar_usuarios()
+#pegar_usuario_por_id(20)
+#pegar_usuario_por_nome('Pedro')
