@@ -1,6 +1,6 @@
 CRUD em Python (Treinamento)
 
-Este é um projeto criado para treinar lógica de programação e praticar a criação de CRUDs do zero utilizando apenas Python, com foco em manipulação de dicionários.
+Este é um projeto criado para treinar lógica de programação e praticar a criação de CRUDs do zero utilizando mysql e python.
 
 O sistema implementa as quatro operações básicas de um CRUD:
 
@@ -8,9 +8,9 @@ O sistema implementa as quatro operações básicas de um CRUD:
 
 C (Create)
 
-Função para criar usuários e armazenar o nome em um dicionário.
+Função para criar usuários e armazenar o nome em um banco de dados.
 
-Cada usuário recebe um ID aleatório de 0 a 10000, sem repetição.
+Cada usuário recebe um ID que o proprio mysql adiciona, sem repetição.
 
 R (Read)
 
@@ -30,7 +30,7 @@ Atualizar pelo ID.
 
 D (Delete)
 
-Funções para excluir usuários cadastrados no dicionário.
+Funções para excluir usuários cadastrados no banco de dados.
 
 Também há duas opções:
 
